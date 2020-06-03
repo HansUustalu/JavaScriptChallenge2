@@ -24,10 +24,6 @@ setInterval(function(){
    time2.innerHTML = time;
  }, 1000);
 
-var today = new Date();
-var day = today.getDay();
-var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-
 animate.onclick = function() {
    this.style.fontSize = '50px';
  };

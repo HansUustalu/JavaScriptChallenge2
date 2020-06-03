@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <script src="scripts/main_Mars.js"defer></script>
+  <script src="scripts/main_Mars.js" defer></script>
   <link rel="stylesheet" href="styles/styles.css">
+
   <title>My time</title>
-  <script type="text/javascript" src="⁨../JavaScript Challange2⁩/scripts⁩/main_Mars.js">
+
+  <script src="⁨../JavaScript_Challange2⁩/scripts⁩/main_Mars.js">
   </script>
 </head>
+
 <body>
   <div class="move">
 
 
-    <div id="box"  class="container" class="move">
-      <p id="time" id="animate">00:00 </p>
+    <div id="box"  class="container move">
+      <p id="time" class="animate">00:00 </p>
     </div>
 
+    <button type="button" name="button" onclick="location.reload();" class="btn">
+      <span class="text">
+        REFRESH TIME
+      </span>
+    </button>
+    <button onclick="red()" class="btn">
+      <span class="text">
+        change background
+      </span>
+    </button>
+    <button onclick="dif()" class="btn">
+      <span class="text" id="animate">
+        change to original color
+      </span>
+    </button>
+  
+    <div class="box2s container">
+      <p id="time2">
+        00:00
+      </p>
 
-    <button type="button" name="button" onclick="location.reload();" class="btn" ><span class="text">REFRESH TIME</span></button>
-
-    <button onclick="red()" class="btn"><span class="text">change background</span></button>
-    <button onclick="dif()" class="btn"><span class="text" id="animate">change to original color</span></button>
-    <!--
-    <button type="button" name="button" value="play" class="GO">move time</button>
-    <!--- --->
-    <div class="box2s" class="container">
-      <p id="time2">00:00</p>
     </div>
   </div>
+
 </body>
+
 </html>
